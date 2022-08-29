@@ -9,8 +9,8 @@ SOCKS_VERSION = 5
 
 class Proxy:
     def __init__(self):
-        self.username = "erl"
-        self.password = "1234"
+        self.username = "httpd"
+        self.password = "httpd"
 
     def handle_client(self, connection):
         # greeting header
